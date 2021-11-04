@@ -12,7 +12,7 @@ var content = document.getElementsByClassName("everything")
     <div class="col-md-4">
         <div class="">
             <a href="post.html" class="text-decoration-none text-black bd-highlight mb-3  d-grid gap-3" onclick="otherlink(${element.id})">
-            <div class="card-body border border-4  border-info  d-grid gap-3 p-3 arrange">
+            <div class="card-body border border-4  border-info  d-grid gap-3 p-3 arrange" style="min-height: 300px">
                 <div class="d-flex justify-content-end">
                 <h6 class="text-warning">${element.id}</h6>
             </div>
