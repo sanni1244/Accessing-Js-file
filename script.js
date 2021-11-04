@@ -4,7 +4,7 @@ function getinfo(){
   .then(data =>  {
 
 var content = document.getElementsByClassName("everything")
-/**/
+
     let mypage = ``;
     data.forEach(element => {
         mypage += `  
